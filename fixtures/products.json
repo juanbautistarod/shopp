@@ -3,72 +3,84 @@
         "discount": 5,
         "name": "Placard",
         "price": 50000,
-        "type": "home"
+        "type": "home",
+        "description": "Este placard es de madera de roble, posee 4 puertas y 2 cajones. Sus dimensiones son 175 x 45 x 185 cm."
     },
     {
         "discount": 10,
         "name": "Mesa",
         "price": 25000,
-        "type": "home"
+        "type": "home",
+        "description": "Esta mesa es de plástico PVC, color negro. Sus dimensiones son 140 x 75 x 70 cm."
     },
     {
         "discount": 0,
         "name": "Silla",
         "price": 5000,
-        "type": "home"
+        "type": "home",
+        "description": "Esta silla es de madera de algarrobo, posee tapizado de cuero. Soporta hasta 150 kg."
     },
     {
         "discount": 0,
         "name": "Mesa de Luz",
         "price": 8000,
-        "type": "home"
+        "type": "home",
+        "description": "Esta mesa de luz es de madera de pino, está barnizada. Sus dimensiones son 65 x 35 x 25 cm."
     },
     {
         "discount": 0,
         "name": "Sillon",
         "price": 85000,
-        "type": "home"
+        "type": "home",
+        "description": "Esta sillon es de tela chenille, color rojo. Consta de 3 cuerpos y un esquinero."
     },
     {
         "discount": 0,
         "name": "Cama",
         "price": 45000,
-        "type": "home"
+        "type": "home",
+        "description": "Esta cama es una cama individual de resortes. Tamaño plaza y media."
     },
     {
         "discount": 0,
         "name": "Rack TV",
         "price": 25000,
-        "type": "home"
+        "type": "home",
+        "description": "Este Rack TV es de melamina, color blanco. Sus dimensiones son 128 x 45 x 45 cm."
     },
     {
         "discount": 0,
         "name": "TV",
         "price": 55000,
-        "type": "electronics"
+        "type": "electronics",
+        "description": "Esta es una Smart TV Samsung de 40 pulgadas. Su resolución nativa es de 1920 x 1080 pixeles."
     },
     {
         "discount": 0,
         "name": "PS4",
         "price": 75000,
-        "type": "electronics"
+        "type": "electronics",
+        "description": "Esta es una Sony Playstation 4, color negro. Cuenta con almacenamiento SSD de 512 GB."
     },
     {
         "discount": 0,
         "name": "PS5",
         "price": 175000,
-        "type": "electronics"
+        "type": "electronics",
+        "description": "Esta es una Sony Playstation 5, color blanco. Cuenta con almacenamiento SSD de 1 TB."
     },
     {
         "discount": 0,
         "name": "Barra de sonido",
         "price": 35000,
-        "type": "electronics"
+        "type": "electronics",
+        "description": "Esta es una barra de sonido JBL, color verde, posee Bluetooth 5.1. Cuenta con una potencia de 70 Watts."
     },
     {
         "discount": 0,
         "name": "Laptop",
         "price": 350000,
-        "type": "electronics"
+        "type": "electronics",
+        "description": "Esta es una laptop Lenovo Legion 5. Cuenta con una garantía por 3 años."
     }
 ]

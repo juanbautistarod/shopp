@@ -18,6 +18,10 @@
             {% if (product.discount > 0) %}
                 <p class="small" data-testid="discount">{{ product.discount }} %</p>
             {% endif %}
+
+            <p style="display: inline-block;"><b>Descripción: </b></p>
+            <span style="display: inline-block;"><i>{{ product.description }}</i></span>
+            
         </div>
 
         <div class="flex-grow-1 d-flex align-items-center justify-content-end">

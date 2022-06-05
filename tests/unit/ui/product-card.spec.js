@@ -55,6 +55,19 @@ describe('Tarjeta de producto', () => {
         expect(getByText(document.body, '$ 100')).toBeVisible();
     });
 
+    // Nuevo test de unidad para verificar que se muestre la desc del producto
+    test('Deberia tener la descripcion del producto', async () => {
+        const html = renderProduct({
+            name: 'Placard',
+            type: 'home',
+            price: 100,
+            description: 'ejemplo'
+        });
+        document.body.innerHTML = html;
+
+        expect(getByText(document.body, 'ejemplo')).toBeVisible();
+    });
+
     test('Deberia tener una imagen con el attributo alt correcto', async () => {
         const product = {
             name: 'Placard',
