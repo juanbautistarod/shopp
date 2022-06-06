@@ -53,6 +53,7 @@ const getAllProducts = (limit, skip, type) => {
     }
 
     return Product.findAndCountAll({
+        order: [['name', 'ASC']],
         limit: limit,
         offset: skip,
         attributes: {
