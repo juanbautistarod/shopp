@@ -15,12 +15,12 @@ describe('Home Test', () => {
         cy.get('.product').should('have.length', 10);
     });
 
-    it('El primer producto deberia ser "Placard"', () => {
+    it('El primer producto deberia ser "Barra de sonido"', () => {
         cy.visit('/');
 
         cy.get('.product:first-child .card-title').should(
             'have.text',
-            'Placard'
+            'Barra de sonido'
         );
     });
 
@@ -37,10 +37,10 @@ describe('Home Test', () => {
         cy.get('.product').should('have.length', 2);
     });
 
-    it('Deberia mostrar el primer producto con descuento', () => {
+    it('Deberia mostrar el octavo producto (Placard) con descuento de 5%', () => {
         cy.visit('/');
 
-        cy.get(':nth-child(1) > .card-body > .ms-3 > [data-testid="discount"]')
+        cy.get(':nth-child(8) > .card-body > .ms-3 > [data-testid="discount"]')
             .should('contain.text', '5 %');
     });
 
