@@ -25,4 +25,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 -   Metricas con lighthouse
 
 [unreleased]: https://github.com/frlp-utn-ingsoft/shopp/compare/v1.0.0...HEAD
-[1.0.0]: https://github.com/frlp-utn-ingsoft/shopp/releases/tag/v1.0.0
+[1.0.1]: https://github.com/frlp-utn-ingsoft/shopp/releases/tag/v1.0.0-beta
+[1.0.0]: https://github.com/frlp-utn-ingsoft/shopp/releases/tag/v1.0.0-beta
